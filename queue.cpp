@@ -7,7 +7,7 @@ class Queue {
     int qfront;
     int rear; 
     int size;
-    
+     
 public:
     Queue() {
         size = 100001;
