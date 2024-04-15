@@ -10,7 +10,7 @@ class cirqueue{
     cirqueue(int size){
         this->size=size;
         arr=new int[size];
-        
+         
         front=rear=-1;
     }
 
