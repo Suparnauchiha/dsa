@@ -33,7 +33,7 @@ node* buildTree(node* root) {
     return root;
 
 }
-
+// for printing tree
 void levelOrderTraversal(node* root) {
     queue<node*> q;
     q.push(root);
@@ -100,7 +100,7 @@ void postorder(node* root) {
     cout << root-> data << " ";
 
 }
-
+// bulid a tree from dfs
 void buildFromLevelOrder(node* &root) {
     queue<node*> q;
 
